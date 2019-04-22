@@ -77,19 +77,23 @@ body {
 @media screen and (max-width: 800px) {
 	#header-img {
 		font-size: 2em;
-		margin-top: 70px;
+		margin-top: 50px;
 		position: static;
+		margin-left: 0;
 	}
 
 	.comp-name {
 		font-size: 1.5em;
 		position: absolute;
+		top: 0;
+		left: 25px;
+		margin-top: 0;
 	}
 
 	.menu-item {
 		padding: 10px;
 		position: relative;
-		top: 120px;
+		top: 90px;
 		left: 45px;
 		font-size: 0.85em;
 		text-align: center;
@@ -260,7 +264,7 @@ body {
 		margin-left: 50px;
 	}
 	.cake-price {
-		margin-left: 0;
+		margin: 30px 0;
 		width: 200px;
 	}
 
